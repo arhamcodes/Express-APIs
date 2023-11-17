@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/', (req, res) => {
-  res.send('Hello World')
+  res.send('Hi Arham!')
 })
 
 app.get('/users', async(req, res) => {
